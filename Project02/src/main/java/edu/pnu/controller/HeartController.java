@@ -24,7 +24,6 @@ import edu.pnu.domain.Heart;
 import edu.pnu.service.HeartService;
 
 //HeartController: API 요청을 처리하는 컨트롤러
-//git 저장 test
 
 @RestController
 @RequestMapping("/api/heart")
@@ -40,7 +39,7 @@ public class HeartController {
         try {
             Heart heart = new Heart();
             heart.setUserid(userid);
-            heart.setImgid(imgid);
+            heart.setImgid(imgid); 
             logger.info("Received like request: {}", heart);
             Heart savedHeart = heartService.saveHeart(heart);
             return ResponseEntity.ok(savedHeart);
