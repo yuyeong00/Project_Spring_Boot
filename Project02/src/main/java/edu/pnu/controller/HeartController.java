@@ -27,7 +27,7 @@ import edu.pnu.service.HeartService;
 
 @RestController
 @RequestMapping("/api/heart")
-public class HeartController { 
+public class HeartController {
  
     private static final Logger logger = LoggerFactory.getLogger(HeartController.class);
 
