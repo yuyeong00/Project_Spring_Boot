@@ -24,11 +24,12 @@ import edu.pnu.domain.Heart;
 import edu.pnu.service.HeartService;
 
 //HeartController: API 요청을 처리하는 컨트롤러
+//git 저장 test
 
 @RestController
 @RequestMapping("/api/heart")
-public class HeartController {
-
+public class HeartController { 
+ 
     private static final Logger logger = LoggerFactory.getLogger(HeartController.class);
 
     @Autowired
